@@ -34,7 +34,9 @@ namespace Task2
 
             for(int i = 0; i < a.Count(); i++)
             {
+
                 int b = int.Parse(a[i]);
+
                 if (isprime(b) == true)
                     op.Write(b + " ");
             }
