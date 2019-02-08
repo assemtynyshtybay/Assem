@@ -9,30 +9,53 @@ namespace Task4
 {
     class Program
     {
+        public class FileDelete
+       {
         static void Main(string[] args)
         {
-            string fname = "a";
-            string fip1 = @"C:\Users\Aser\Desktop\cake\salt";
-            string fip2 = @"C:\Users\Aser\Desktop\cake\salt\bad";
-            string soufile = Path.Combine(fip1, fname);
-            string desfile = Path.Combine(fip2, fname);
-            if (!Directory.Exists(fip2))
+            string fname = "File.txt";
+            string path =@"C:\Users\Aser\Desktop\cake\bad";
+            string path1 = @"C:\Users\Aser\Desktop\cake\salt";
+            string soufile = Path.Combine( path, fname);
+            string desfile = Path.Combine( path1, fname);
+            
+         
+           if(!Directory.Exists( path))
             {
-                Directory.CreateDirectory(fip2);
+                Directory.CreateDirectory( path);
+              
             }
-            File.Copy(soufile,desfile, true);
-            if(Directory.Exists(fip1))
+             FileStream fs=File.Create(soufile);
+             fs.Close();
+              File.Copy(soufile,desfile, true);
+            if(Directory.Exists( path1))
             {
-                string[] files = Directory.GetFiles(fip1);
+                string[] files = Directory.GetFiles( path);
                 foreach(string s in files)
                 {
                     fname = Path.GetFileName(s);
-                    desfile = Path.Combine(fip2, fname);
+                    desfile = Path.Combine( path1, fname);
                     File.Copy(s,desfile,true);
                 }
+            } 
+          if(Directory.Exists(@"C:\Users\Aser\Desktop\cake\bad"))
+          {
+           try
+            {
+            Directory.Delete(@"C:\Users\Aser\Desktop\cake\bad",true);
             }
-            File.Delete(fip1);
-            Console.ReadKey();
+            catch(IOException e)
+            {
+                Console.WriteLine(e.Message);
+                    return;
+            }   
+          }
+            
+           Console.ReadKey();
+             
+          
         }
+        
+      }
     }
 }
