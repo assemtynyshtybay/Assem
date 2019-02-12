@@ -27,17 +27,18 @@ namespace Task4
             }
              FileStream fs=File.Create(soufile);
              fs.Close();
-              File.Copy(soufile,desfile, true);
+            //  File.Copy(soufile,desfile, true);
             if(Directory.Exists( path1))
             {
                 string[] files = Directory.GetFiles( path);
                 foreach(string s in files)
                 {
                     fname = Path.GetFileName(s);
-                    desfile = Path.Combine( path1, fname);
+                    //desfile = Path.Combine( path1, fname);
                     File.Copy(s,desfile,true);
                 }
             } 
+           
           if(Directory.Exists(@"C:\Users\Aser\Desktop\cake\bad"))
           {
            try

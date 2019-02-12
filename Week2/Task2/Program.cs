@@ -16,11 +16,12 @@ namespace Task2
             {
                 return false;
             }
-            for(int i = 2; i <=Math.Sqrt(x); i++)
+            for(int i=2;i<=Math.Sqrt(x);i++)
             {
-                if (x % i == 0)
+                if(x%i==0)
                     return false;
             }
+            
             return true;
         }
         static void Main(string[] args)

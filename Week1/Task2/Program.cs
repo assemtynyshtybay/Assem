@@ -23,24 +23,29 @@ namespace Task2
         {
             yearos++;
         }
-        public int Yearos
-            {
-            get
-            {
-                return yearos;
-            }
-            set
-            {
-                yearos=value;
-            }
-            }
+            public int Yearofstudy
+                {
+                get
+                {
+                    return yearos;
+                }
+                set
+                    {
+                    yearos=value;
+                    }
+                }
+                       
+        
         
    
         static void Main(string[] args)
         {    
-            Student s=new Student("Assem","18BD23456");
-            s.yearos=2018;
+            Student s= new Student("Assem","18BD12345");
+            s.yearos=1;
+            //Console.WriteLine(s.yearos);
             s.increase();
+                s.increase();
+                s.increase();
             
             Console.WriteLine(s.yearos);
                 Console.ReadKey();

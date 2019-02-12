@@ -1,0 +1,7 @@
+C:\Users\Aser\source\repos\lab1\PP2\forex\bin\Debug\forex.exe.config
+C:\Users\Aser\source\repos\lab1\PP2\forex\bin\Debug\forex.exe
+C:\Users\Aser\source\repos\lab1\PP2\forex\bin\Debug\forex.pdb
+C:\Users\Aser\source\repos\lab1\PP2\forex\obj\Debug\forex.csprojAssemblyReference.cache
+C:\Users\Aser\source\repos\lab1\PP2\forex\obj\Debug\forex.csproj.CoreCompileInputs.cache
+C:\Users\Aser\source\repos\lab1\PP2\forex\obj\Debug\forex.exe
+C:\Users\Aser\source\repos\lab1\PP2\forex\obj\Debug\forex.pdb

@@ -23,6 +23,7 @@ namespace Task3
             if(sp.GetType() == typeof(DirectoryInfo))
             {
                 var items = (sp as DirectoryInfo).GetFileSystemInfos();
+                
                 foreach (var i in items)
                 {
                     PrintInfo(i, k + 6);

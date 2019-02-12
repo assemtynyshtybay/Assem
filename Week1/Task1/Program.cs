@@ -25,15 +25,16 @@ namespace Task1
                     if (z % j == 0)//condition to find whole divisor of z
                        cnt++;     // count whole divisor of z
                 }
-                if (cnt == 0&&z!=1)//condition to find prime 
+                if (cnt == 0 && z!=1)//condition to find prime 
                 {
                     count++;//count prime
                     t += s[i] + " ";//enter primes in new string t
                 }
 
             }
-            Console.WriteLine(count);//input count of primes
-            Console.WriteLine(t);//input prime numbers
+            Console.WriteLine(count);//output count of primes
+            Console.WriteLine(t);//output prime numbers
+            Console.ReadKey();
         }
     }
 }
