@@ -1,0 +1,7 @@
+C:\Users\Aser\source\repos\lab1\PP2\TSIS4\task2\bin\Debug\task2.exe.config
+C:\Users\Aser\source\repos\lab1\PP2\TSIS4\task2\bin\Debug\task2.exe
+C:\Users\Aser\source\repos\lab1\PP2\TSIS4\task2\bin\Debug\task2.pdb
+C:\Users\Aser\source\repos\lab1\PP2\TSIS4\task2\obj\Debug\task2.csprojAssemblyReference.cache
+C:\Users\Aser\source\repos\lab1\PP2\TSIS4\task2\obj\Debug\task2.csproj.CoreCompileInputs.cache
+C:\Users\Aser\source\repos\lab1\PP2\TSIS4\task2\obj\Debug\task2.exe
+C:\Users\Aser\source\repos\lab1\PP2\TSIS4\task2\obj\Debug\task2.pdb
